@@ -1,0 +1,161 @@
+Cancer,Region,Total Coverage %
+Brain,Central Africa,88.3
+Brain,Central America,1.99
+Brain,East Africa,92.15
+Brain,East Asia,97.8
+Brain,Europe,99.34
+Brain,North Africa,95.28
+Brain,North America,98.13
+Brain,Northeast Asia,91.58
+Brain,Oceania,92.78
+Brain,South Africa,95.69
+Brain,South America,90.51
+Brain,South Asia,89.72
+Brain,Southeast Asia,94.93
+Brain,Southwest Asia,89.29
+Brain,West Africa,95.49
+Brain,West Indies,90.94
+Breast,Central Africa,99.51
+Breast,Central America,3.94
+Breast,East Africa,99.6
+Breast,East Asia,99.99
+Breast,Europe,99.96
+Breast,North Africa,99.66
+Breast,North America,99.76
+Breast,Northeast Asia,99.78
+Breast,Oceania,99.49
+Breast,South Africa,99.67
+Breast,South America,97.1
+Breast,South Asia,98.8
+Breast,Southeast Asia,99.93
+Breast,Southwest Asia,97.8
+Breast,West Africa,99.85
+Breast,West Indies,98.12
+Cervix,Central Africa,84.16
+Cervix,Central America,0.6
+Cervix,East Africa,85.65
+Cervix,East Asia,85.21
+Cervix,Europe,96.38
+Cervix,North Africa,92.08
+Cervix,North America,94.82
+Cervix,Northeast Asia,80.7
+Cervix,Oceania,84.71
+Cervix,South Africa,89.56
+Cervix,South America,83.14
+Cervix,South Asia,79.71
+Cervix,Southeast Asia,85.49
+Cervix,Southwest Asia,86.54
+Cervix,West Africa,91.47
+Cervix,West Indies,76.08
+Head and Neck,Central Africa,99.45
+Head and Neck,Central America,6.84
+Head and Neck,East Africa,99.48
+Head and Neck,East Asia,99.48
+Head and Neck,Europe,99.94
+Head and Neck,North Africa,99.66
+Head and Neck,North America,99.62
+Head and Neck,Northeast Asia,96.97
+Head and Neck,Oceania,96.6
+Head and Neck,South Africa,99.43
+Head and Neck,South America,95.78
+Head and Neck,South Asia,97.14
+Head and Neck,Southeast Asia,97.86
+Head and Neck,Southwest Asia,96.94
+Head and Neck,West Africa,99.85
+Head and Neck,West Indies,98.08
+Kidney,Central Africa,99.47
+Kidney,Central America,3.94
+Kidney,East Africa,98.97
+Kidney,East Asia,99.79
+Kidney,Europe,99.94
+Kidney,North Africa,99.62
+Kidney,North America,99.68
+Kidney,Northeast Asia,98.2
+Kidney,Oceania,98.47
+Kidney,South Africa,99.46
+Kidney,South America,97.08
+Kidney,South Asia,97.15
+Kidney,Southeast Asia,98.91
+Kidney,Southwest Asia,97.05
+Kidney,West Africa,99.87
+Kidney,West Indies,97.32
+Liver,Central Africa,97.68
+Liver,Central America,3.94
+Liver,East Africa,96.53
+Liver,East Asia,99.95
+Liver,Europe,99.88
+Liver,North Africa,98.81
+Liver,North America,99.61
+Liver,Northeast Asia,99.6
+Liver,Oceania,99.34
+Liver,South Africa,98.41
+Liver,South America,97.21
+Liver,South Asia,98.11
+Liver,Southeast Asia,99.84
+Liver,Southwest Asia,96.66
+Liver,West Africa,99.15
+Liver,West Indies,95.66
+Ovary,Central Africa,99.4
+Ovary,Central America,4.71
+Ovary,East Africa,99.41
+Ovary,East Asia,99.86
+Ovary,Europe,99.98
+Ovary,North Africa,99.71
+Ovary,North America,99.78
+Ovary,Northeast Asia,99.17
+Ovary,Oceania,99.5
+Ovary,South Africa,99.6
+Ovary,South America,97.45
+Ovary,South Asia,98.62
+Ovary,Southeast Asia,99.45
+Ovary,Southwest Asia,98.41
+Ovary,West Africa,99.82
+Ovary,West Indies,98.6
+Pancreas,Central Africa,70.99
+Pancreas,Central America,N/A
+Pancreas,East Africa,67.16
+Pancreas,East Asia,74.85
+Pancreas,Europe,92.88
+Pancreas,North Africa,73.63
+Pancreas,North America,88.3
+Pancreas,Northeast Asia,67.99
+Pancreas,Oceania,72.33
+Pancreas,South Africa,57.03
+Pancreas,South America,75.95
+Pancreas,South Asia,60.18
+Pancreas,Southeast Asia,72.48
+Pancreas,Southwest Asia,71.79
+Pancreas,West Africa,72.6
+Pancreas,West Indies,63.75
+Thyroid,Central Africa,95.59
+Thyroid,Central America,3.36
+Thyroid,East Africa,93.5
+Thyroid,East Asia,97.53
+Thyroid,Europe,99.45
+Thyroid,North Africa,97.51
+Thyroid,North America,98.93
+Thyroid,Northeast Asia,92.88
+Thyroid,Oceania,92.75
+Thyroid,South Africa,92.33
+Thyroid,South America,94.58
+Thyroid,South Asia,93.05
+Thyroid,Southeast Asia,95.72
+Thyroid,Southwest Asia,91.91
+Thyroid,West Africa,98.23
+Thyroid,West Indies,88.49
+Uterus,Central Africa,99.41
+Uterus,Central America,7.59
+Uterus,East Africa,99.52
+Uterus,East Asia,99.95
+Uterus,Europe,99.98
+Uterus,North Africa,99.71
+Uterus,North America,99.78
+Uterus,Northeast Asia,99.63
+Uterus,Oceania,99.63
+Uterus,South Africa,99.66
+Uterus,South America,97.64
+Uterus,South Asia,98.65
+Uterus,Southeast Asia,99.82
+Uterus,Southwest Asia,97.92
+Uterus,West Africa,99.86
+Uterus,West Indies,98.75

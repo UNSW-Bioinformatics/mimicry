@@ -1,0 +1,26 @@
+body {
+  background-color: #e5cdf5; /* Light gray background */
+}
+
+/* Sidebar color */
+.sidebar {
+  background-color: #2c3e50; /* Dark gray sidebar */
+  color: #ecf0f1; /* Light gray text color */
+}
+
+/* Header color */
+.navbar {
+  background-color: #3498db; /* Blue header */
+  color: #ffffff; /* White text color */
+}
+
+/* Customizing the plot background */
+.plotly {
+  background-color: #ffffff; /* White background for plots */
+}
+
+/* Adjusting text color in sidebar inputs */
+.sidebar input {
+  color: #ffffff; /* White text color in inputs */
+}
+

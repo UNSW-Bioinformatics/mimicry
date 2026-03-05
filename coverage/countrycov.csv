@@ -1,0 +1,831 @@
+Cancer,Country,Total Coverage %
+Brain,Algeria,N/A
+Brain,American Samoa,97.29
+Brain,Argentina,68.85
+Brain,Australia,94.9
+Brain,Austria,97.19
+Brain,Belgium,93.3
+Brain,Brazil,96.78
+Brain,Bulgaria,98.89
+Brain,Burkina Faso,88.68
+Brain,Cameroon,89.22
+Brain,Cape Verde,92.83
+Brain,Central African Republic,25.82
+Brain,Chile,93.06
+Brain,China,91.28
+Brain,Colombia,9.86
+Brain,Croatia,98.5
+Brain,Cuba,91.1
+Brain,Czech Republic,98.75
+Brain,Ecuador,70.6
+Brain,England,99.32
+Brain,Equatorial Guinea,39.94
+Brain,Finland,99.94
+Brain,France,99.33
+Brain,Georgia,98.55
+Brain,Germany,99.7
+Brain,Guatemala,1.99
+Brain,Guinea-Bissau,85.98
+Brain,Hong Kong,81.01
+Brain,India,87.9
+Brain,Indonesia,80.46
+Brain,Iran,96.25
+Brain,Ireland Northern,99.75
+Brain,Ireland South,99.71
+Brain,Israel,89.5
+Brain,Italy,99.3
+Brain,Ivory Coast,53.67
+Brain,Japan,98.12
+Brain,Jordan,83.24
+Brain,Kenya,91.19
+Brain,Korea; South,96.87
+Brain,Lebanon,71.7
+Brain,Macedonia,22.42
+Brain,Malaysia,75.78
+Brain,Mali,97.5
+Brain,Mexico,98.03
+Brain,Mongolia,67.51
+Brain,Morocco,95.67
+Brain,New Caledonia,96.64
+Brain,Oman,94.95
+Brain,Pakistan,84.26
+Brain,Papua New Guinea,95.16
+Brain,Peru,97.34
+Brain,Philippines,99.02
+Brain,Poland,99.48
+Brain,Portugal,97.03
+Brain,Romania,97.29
+Brain,Russia,98.53
+Brain,Rwanda,30.11
+Brain,Sao Tome and Principe,78.2
+Brain,Saudi Arabia,95.66
+Brain,Scotland,72.8
+Brain,Senegal,90.53
+Brain,Serbia,89.44
+Brain,Singapore,90.24
+Brain,South Africa,95.69
+Brain,Spain,98.83
+Brain,Sri Lanka,14.07
+Brain,Sudan,94.89
+Brain,Sweden,99.16
+Brain,Switzerland,76.38
+Brain,Taiwan,97.05
+Brain,Thailand,91.35
+Brain,Tunisia,96.01
+Brain,Turkey,76.53
+Brain,Uganda,94.24
+Brain,United Arab Emirates,7.46
+Brain,United Kingdom,88.03
+Brain,United States,98.19
+Brain,Venezuela,98.37
+Brain,Vietnam,89.65
+Brain,Wales,1.59
+Brain,Zambia,97.45
+Brain,Zimbabwe,93.01
+Breast,Algeria,N/A
+Breast,American Samoa,99.95
+Breast,Argentina,94.36
+Breast,Australia,99.89
+Breast,Austria,99.91
+Breast,Belgium,97.33
+Breast,Brazil,99.6
+Breast,Bulgaria,99.96
+Breast,Burkina Faso,96.1
+Breast,Cameroon,99.64
+Breast,Cape Verde,98.49
+Breast,Central African Republic,95.74
+Breast,Chile,99.0
+Breast,China,99.74
+Breast,Colombia,11.58
+Breast,Croatia,99.9
+Breast,Cuba,98.18
+Breast,Czech Republic,99.95
+Breast,Ecuador,74.67
+Breast,England,99.96
+Breast,Equatorial Guinea,39.94
+Breast,Finland,100.0
+Breast,France,99.93
+Breast,Georgia,99.89
+Breast,Germany,99.99
+Breast,Guatemala,3.94
+Breast,Guinea-Bissau,97.4
+Breast,Hong Kong,98.82
+Breast,India,98.21
+Breast,Indonesia,96.82
+Breast,Iran,99.9
+Breast,Ireland Northern,100.0
+Breast,Ireland South,100.0
+Breast,Israel,98.74
+Breast,Italy,99.99
+Breast,Ivory Coast,78.46
+Breast,Japan,100.0
+Breast,Jordan,95.74
+Breast,Kenya,99.83
+Breast,Korea; South,99.99
+Breast,Lebanon,99.58
+Breast,Macedonia,64.51
+Breast,Malaysia,93.54
+Breast,Mali,99.99
+Breast,Mexico,99.99
+Breast,Mongolia,85.91
+Breast,Morocco,99.94
+Breast,New Caledonia,99.98
+Breast,Oman,99.55
+Breast,Pakistan,98.62
+Breast,Papua New Guinea,99.95
+Breast,Peru,98.73
+Breast,Philippines,100.0
+Breast,Poland,99.99
+Breast,Portugal,99.67
+Breast,Romania,99.65
+Breast,Russia,99.93
+Breast,Rwanda,54.57
+Breast,Sao Tome and Principe,94.82
+Breast,Saudi Arabia,99.92
+Breast,Scotland,80.33
+Breast,Senegal,99.56
+Breast,Serbia,98.46
+Breast,Singapore,99.71
+Breast,South Africa,99.67
+Breast,Spain,99.96
+Breast,Sri Lanka,47.44
+Breast,Sudan,99.81
+Breast,Sweden,99.97
+Breast,Switzerland,98.23
+Breast,Taiwan,99.99
+Breast,Thailand,99.83
+Breast,Tunisia,99.77
+Breast,Turkey,82.17
+Breast,Uganda,99.55
+Breast,United Arab Emirates,21.68
+Breast,United Kingdom,99.99
+Breast,United States,99.76
+Breast,Venezuela,99.91
+Breast,Vietnam,99.93
+Breast,Wales,4.16
+Breast,Zambia,99.89
+Breast,Zimbabwe,99.94
+Cervix,Algeria,N/A
+Cervix,American Samoa,84.81
+Cervix,Argentina,69.02
+Cervix,Australia,92.29
+Cervix,Austria,84.09
+Cervix,Belgium,78.75
+Cervix,Brazil,93.41
+Cervix,Bulgaria,94.98
+Cervix,Burkina Faso,80.1
+Cervix,Cameroon,85.85
+Cervix,Cape Verde,67.5
+Cervix,Central African Republic,33.0
+Cervix,Chile,89.54
+Cervix,China,80.56
+Cervix,Colombia,8.87
+Cervix,Croatia,85.13
+Cervix,Cuba,76.32
+Cervix,Czech Republic,96.6
+Cervix,Ecuador,22.04
+Cervix,England,96.66
+Cervix,Equatorial Guinea,32.76
+Cervix,Finland,98.83
+Cervix,France,95.19
+Cervix,Georgia,94.38
+Cervix,Germany,98.09
+Cervix,Guatemala,0.6
+Cervix,Guinea-Bissau,57.67
+Cervix,Hong Kong,45.32
+Cervix,India,77.3
+Cervix,Indonesia,49.06
+Cervix,Iran,94.28
+Cervix,Ireland Northern,98.74
+Cervix,Ireland South,98.01
+Cervix,Israel,84.05
+Cervix,Italy,96.77
+Cervix,Ivory Coast,33.19
+Cervix,Japan,88.15
+Cervix,Jordan,74.07
+Cervix,Kenya,87.86
+Cervix,Korea; South,85.96
+Cervix,Lebanon,76.67
+Cervix,Macedonia,21.61
+Cervix,Malaysia,58.28
+Cervix,Mali,94.48
+Cervix,Mexico,98.48
+Cervix,Mongolia,35.78
+Cervix,Morocco,94.34
+Cervix,New Caledonia,78.49
+Cervix,Oman,85.79
+Cervix,Pakistan,64.86
+Cervix,Papua New Guinea,83.32
+Cervix,Peru,89.54
+Cervix,Philippines,93.48
+Cervix,Poland,96.59
+Cervix,Portugal,93.68
+Cervix,Romania,83.09
+Cervix,Russia,94.62
+Cervix,Rwanda,39.99
+Cervix,Sao Tome and Principe,61.64
+Cervix,Saudi Arabia,96.87
+Cervix,Scotland,66.43
+Cervix,Senegal,89.34
+Cervix,Serbia,58.66
+Cervix,Singapore,76.52
+Cervix,South Africa,89.56
+Cervix,Spain,95.26
+Cervix,Sri Lanka,9.56
+Cervix,Sudan,93.28
+Cervix,Sweden,81.86
+Cervix,Switzerland,75.99
+Cervix,Taiwan,90.21
+Cervix,Thailand,77.29
+Cervix,Tunisia,92.52
+Cervix,Turkey,62.41
+Cervix,Uganda,88.5
+Cervix,United Arab Emirates,1.2
+Cervix,United Kingdom,88.84
+Cervix,United States,94.8
+Cervix,Venezuela,96.41
+Cervix,Vietnam,76.99
+Cervix,Wales,N/A
+Cervix,Zambia,89.32
+Cervix,Zimbabwe,90.84
+Head and Neck,Algeria,N/A
+Head and Neck,American Samoa,96.25
+Head and Neck,Argentina,95.47
+Head and Neck,Australia,99.58
+Head and Neck,Austria,99.76
+Head and Neck,Belgium,95.84
+Head and Neck,Brazil,99.64
+Head and Neck,Bulgaria,99.85
+Head and Neck,Burkina Faso,97.86
+Head and Neck,Cameroon,99.61
+Head and Neck,Cape Verde,98.69
+Head and Neck,Central African Republic,95.76
+Head and Neck,Chile,97.89
+Head and Neck,China,96.8
+Head and Neck,Colombia,11.45
+Head and Neck,Croatia,99.45
+Head and Neck,Cuba,98.13
+Head and Neck,Czech Republic,99.93
+Head and Neck,Ecuador,28.11
+Head and Neck,England,99.94
+Head and Neck,Equatorial Guinea,39.94
+Head and Neck,Finland,100.0
+Head and Neck,France,99.93
+Head and Neck,Georgia,99.79
+Head and Neck,Germany,99.99
+Head and Neck,Guatemala,6.84
+Head and Neck,Guinea-Bissau,98.73
+Head and Neck,Hong Kong,75.83
+Head and Neck,India,96.64
+Head and Neck,Indonesia,76.86
+Head and Neck,Iran,99.83
+Head and Neck,Ireland Northern,100.0
+Head and Neck,Ireland South,100.0
+Head and Neck,Israel,98.24
+Head and Neck,Italy,99.99
+Head and Neck,Ivory Coast,90.61
+Head and Neck,Japan,99.52
+Head and Neck,Jordan,93.04
+Head and Neck,Kenya,99.73
+Head and Neck,Korea; South,99.6
+Head and Neck,Lebanon,99.51
+Head and Neck,Macedonia,58.35
+Head and Neck,Malaysia,77.6
+Head and Neck,Mali,99.99
+Head and Neck,Mexico,99.89
+Head and Neck,Mongolia,58.85
+Head and Neck,Morocco,99.93
+Head and Neck,New Caledonia,99.21
+Head and Neck,Oman,98.82
+Head and Neck,Pakistan,93.36
+Head and Neck,Papua New Guinea,96.9
+Head and Neck,Peru,95.09
+Head and Neck,Philippines,95.17
+Head and Neck,Poland,99.98
+Head and Neck,Portugal,99.49
+Head and Neck,Romania,98.66
+Head and Neck,Russia,99.66
+Head and Neck,Rwanda,60.25
+Head and Neck,Sao Tome and Principe,97.75
+Head and Neck,Saudi Arabia,99.91
+Head and Neck,Scotland,82.19
+Head and Neck,Senegal,99.62
+Head and Neck,Serbia,97.31
+Head and Neck,Singapore,94.37
+Head and Neck,South Africa,99.43
+Head and Neck,Spain,99.95
+Head and Neck,Sri Lanka,23.09
+Head and Neck,Sudan,99.8
+Head and Neck,Sweden,99.77
+Head and Neck,Switzerland,97.69
+Head and Neck,Taiwan,98.88
+Head and Neck,Thailand,97.44
+Head and Neck,Tunisia,99.72
+Head and Neck,Turkey,80.65
+Head and Neck,Uganda,99.55
+Head and Neck,United Arab Emirates,11.08
+Head and Neck,United Kingdom,99.92
+Head and Neck,United States,99.63
+Head and Neck,Venezuela,99.49
+Head and Neck,Vietnam,96.65
+Head and Neck,Wales,4.21
+Head and Neck,Zambia,99.94
+Head and Neck,Zimbabwe,99.88
+Kidney,Algeria,N/A
+Kidney,American Samoa,99.16
+Kidney,Argentina,96.54
+Kidney,Australia,99.76
+Kidney,Austria,99.68
+Kidney,Belgium,96.64
+Kidney,Brazil,99.71
+Kidney,Bulgaria,99.88
+Kidney,Burkina Faso,95.55
+Kidney,Cameroon,99.59
+Kidney,Cape Verde,97.88
+Kidney,Central African Republic,94.78
+Kidney,Chile,98.68
+Kidney,China,98.04
+Kidney,Colombia,9.86
+Kidney,Croatia,99.58
+Kidney,Cuba,97.38
+Kidney,Czech Republic,99.9
+Kidney,Ecuador,76.97
+Kidney,England,99.95
+Kidney,Equatorial Guinea,39.94
+Kidney,Finland,100.0
+Kidney,France,99.95
+Kidney,Georgia,99.84
+Kidney,Germany,99.99
+Kidney,Guatemala,3.94
+Kidney,Guinea-Bissau,95.82
+Kidney,Hong Kong,89.0
+Kidney,India,96.59
+Kidney,Indonesia,88.2
+Kidney,Iran,99.73
+Kidney,Ireland Northern,100.0
+Kidney,Ireland South,100.0
+Kidney,Israel,98.29
+Kidney,Italy,99.99
+Kidney,Ivory Coast,76.28
+Kidney,Japan,99.84
+Kidney,Jordan,93.07
+Kidney,Kenya,99.63
+Kidney,Korea; South,99.73
+Kidney,Lebanon,99.51
+Kidney,Macedonia,57.91
+Kidney,Malaysia,80.95
+Kidney,Mali,99.99
+Kidney,Mexico,99.97
+Kidney,Mongolia,77.18
+Kidney,Morocco,99.93
+Kidney,New Caledonia,99.89
+Kidney,Oman,97.68
+Kidney,Pakistan,93.41
+Kidney,Papua New Guinea,99.09
+Kidney,Peru,99.98
+Kidney,Philippines,99.38
+Kidney,Poland,99.98
+Kidney,Portugal,99.61
+Kidney,Romania,98.73
+Kidney,Russia,99.78
+Kidney,Rwanda,61.53
+Kidney,Sao Tome and Principe,92.36
+Kidney,Saudi Arabia,99.91
+Kidney,Scotland,82.19
+Kidney,Senegal,99.43
+Kidney,Serbia,95.88
+Kidney,Singapore,96.98
+Kidney,South Africa,99.46
+Kidney,Spain,99.95
+Kidney,Sri Lanka,18.46
+Kidney,Sudan,99.8
+Kidney,Sweden,99.91
+Kidney,Switzerland,97.69
+Kidney,Taiwan,99.52
+Kidney,Thailand,98.38
+Kidney,Tunisia,99.73
+Kidney,Turkey,78.5
+Kidney,Uganda,99.1
+Kidney,United Arab Emirates,12.2
+Kidney,United Kingdom,99.92
+Kidney,United States,99.68
+Kidney,Venezuela,99.75
+Kidney,Vietnam,98.51
+Kidney,Wales,4.16
+Kidney,Zambia,99.92
+Kidney,Zimbabwe,99.83
+Liver,Algeria,N/A
+Liver,American Samoa,99.87
+Liver,Argentina,95.59
+Liver,Australia,99.78
+Liver,Austria,99.37
+Liver,Belgium,96.41
+Liver,Brazil,99.69
+Liver,Bulgaria,99.85
+Liver,Burkina Faso,89.07
+Liver,Cameroon,97.83
+Liver,Cape Verde,96.57
+Liver,Central African Republic,86.16
+Liver,Chile,98.85
+Liver,China,99.54
+Liver,Colombia,9.01
+Liver,Croatia,99.32
+Liver,Cuba,95.81
+Liver,Czech Republic,99.65
+Liver,Ecuador,76.97
+Liver,England,99.79
+Liver,Equatorial Guinea,39.94
+Liver,Finland,100.0
+Liver,France,99.85
+Liver,Georgia,99.76
+Liver,Germany,99.96
+Liver,Guatemala,3.94
+Liver,Guinea-Bissau,95.42
+Liver,Hong Kong,97.83
+Liver,India,97.08
+Liver,Indonesia,95.73
+Liver,Iran,99.7
+Liver,Ireland Northern,99.98
+Liver,Ireland South,99.96
+Liver,Israel,97.23
+Liver,Italy,99.93
+Liver,Ivory Coast,69.21
+Liver,Japan,99.98
+Liver,Jordan,92.1
+Liver,Kenya,97.17
+Liver,Korea; South,99.97
+Liver,Lebanon,93.08
+Liver,Macedonia,48.31
+Liver,Malaysia,93.31
+Liver,Mali,99.5
+Liver,Mexico,99.99
+Liver,Mongolia,86.21
+Liver,Morocco,99.34
+Liver,New Caledonia,99.98
+Liver,Oman,98.75
+Liver,Pakistan,97.27
+Liver,Papua New Guinea,99.94
+Liver,Peru,99.98
+Liver,Philippines,99.95
+Liver,Poland,99.93
+Liver,Portugal,99.29
+Liver,Romania,98.7
+Liver,Russia,99.85
+Liver,Rwanda,41.1
+Liver,Sao Tome and Principe,91.78
+Liver,Saudi Arabia,99.58
+Liver,Scotland,67.13
+Liver,Senegal,99.16
+Liver,Serbia,90.33
+Liver,Singapore,99.38
+Liver,South Africa,98.41
+Liver,Spain,99.77
+Liver,Sri Lanka,36.16
+Liver,Sudan,98.52
+Liver,Sweden,99.71
+Liver,Switzerland,95.67
+Liver,Taiwan,99.96
+Liver,Thailand,99.6
+Liver,Tunisia,99.1
+Liver,Turkey,80.48
+Liver,Uganda,97.86
+Liver,United Arab Emirates,8.22
+Liver,United Kingdom,97.96
+Liver,United States,99.61
+Liver,Venezuela,99.81
+Liver,Vietnam,99.84
+Liver,Wales,2.58
+Liver,Zambia,98.74
+Liver,Zimbabwe,99.01
+Ovary,Algeria,N/A
+Ovary,American Samoa,99.57
+Ovary,Argentina,97.62
+Ovary,Australia,99.87
+Ovary,Austria,99.99
+Ovary,Belgium,99.52
+Ovary,Brazil,99.69
+Ovary,Bulgaria,99.98
+Ovary,Burkina Faso,95.98
+Ovary,Cameroon,99.5
+Ovary,Cape Verde,98.51
+Ovary,Central African Republic,92.71
+Ovary,Chile,99.29
+Ovary,China,99.1
+Ovary,Colombia,8.87
+Ovary,Croatia,99.98
+Ovary,Cuba,98.66
+Ovary,Czech Republic,99.97
+Ovary,Ecuador,77.35
+Ovary,England,99.99
+Ovary,Equatorial Guinea,39.94
+Ovary,Finland,100.0
+Ovary,France,99.97
+Ovary,Georgia,99.92
+Ovary,Germany,100.0
+Ovary,Guatemala,4.71
+Ovary,Guinea-Bissau,96.32
+Ovary,Hong Kong,95.28
+Ovary,India,97.74
+Ovary,Indonesia,91.37
+Ovary,Iran,99.88
+Ovary,Ireland Northern,100.0
+Ovary,Ireland South,100.0
+Ovary,Israel,98.94
+Ovary,Italy,99.99
+Ovary,Ivory Coast,76.28
+Ovary,Japan,99.91
+Ovary,Jordan,96.62
+Ovary,Kenya,99.69
+Ovary,Korea; South,99.85
+Ovary,Lebanon,99.51
+Ovary,Macedonia,60.82
+Ovary,Malaysia,88.12
+Ovary,Mali,99.98
+Ovary,Mexico,99.94
+Ovary,Mongolia,91.76
+Ovary,Morocco,99.95
+Ovary,New Caledonia,99.98
+Ovary,Oman,99.75
+Ovary,Pakistan,98.36
+Ovary,Papua New Guinea,99.92
+Ovary,Peru,99.99
+Ovary,Philippines,99.54
+Ovary,Poland,99.99
+Ovary,Portugal,99.77
+Ovary,Romania,99.91
+Ovary,Russia,99.91
+Ovary,Rwanda,61.96
+Ovary,Sao Tome and Principe,93.36
+Ovary,Saudi Arabia,99.95
+Ovary,Scotland,82.19
+Ovary,Senegal,99.37
+Ovary,Serbia,97.93
+Ovary,Singapore,98.06
+Ovary,South Africa,99.6
+Ovary,Spain,99.95
+Ovary,Sri Lanka,45.54
+Ovary,Sudan,99.84
+Ovary,Sweden,100.0
+Ovary,Switzerland,97.69
+Ovary,Taiwan,99.84
+Ovary,Thailand,99.16
+Ovary,Tunisia,99.82
+Ovary,Turkey,80.48
+Ovary,Uganda,99.52
+Ovary,United Arab Emirates,12.2
+Ovary,United Kingdom,99.92
+Ovary,United States,99.79
+Ovary,Venezuela,99.82
+Ovary,Vietnam,99.11
+Ovary,Wales,4.16
+Ovary,Zambia,99.92
+Ovary,Zimbabwe,99.84
+Pancreas,Algeria,N/A
+Pancreas,American Samoa,71.58
+Pancreas,Argentina,45.94
+Pancreas,Australia,82.72
+Pancreas,Austria,81.97
+Pancreas,Belgium,76.22
+Pancreas,Brazil,90.52
+Pancreas,Bulgaria,76.25
+Pancreas,Burkina Faso,37.44
+Pancreas,Cameroon,73.18
+Pancreas,Cape Verde,53.54
+Pancreas,Central African Republic,5.95
+Pancreas,Chile,79.74
+Pancreas,China,68.4
+Pancreas,Colombia,8.87
+Pancreas,Croatia,74.22
+Pancreas,Cuba,64.14
+Pancreas,Czech Republic,94.52
+Pancreas,Ecuador,11.36
+Pancreas,England,93.54
+Pancreas,Equatorial Guinea,14.44
+Pancreas,Finland,98.35
+Pancreas,France,90.73
+Pancreas,Georgia,85.87
+Pancreas,Germany,95.91
+Pancreas,Guatemala,N/A
+Pancreas,Guinea-Bissau,43.85
+Pancreas,Hong Kong,16.06
+Pancreas,India,55.18
+Pancreas,Indonesia,20.66
+Pancreas,Iran,81.37
+Pancreas,Ireland Northern,97.27
+Pancreas,Ireland South,95.85
+Pancreas,Israel,69.11
+Pancreas,Italy,88.28
+Pancreas,Ivory Coast,13.3
+Pancreas,Japan,76.96
+Pancreas,Jordan,59.57
+Pancreas,Kenya,65.93
+Pancreas,Korea; South,74.38
+Pancreas,Lebanon,62.91
+Pancreas,Macedonia,8.99
+Pancreas,Malaysia,32.16
+Pancreas,Mali,70.86
+Pancreas,Mexico,97.49
+Pancreas,Mongolia,37.52
+Pancreas,Morocco,76.96
+Pancreas,New Caledonia,64.16
+Pancreas,Oman,62.07
+Pancreas,Pakistan,48.12
+Pancreas,Papua New Guinea,72.23
+Pancreas,Peru,79.68
+Pancreas,Philippines,84.08
+Pancreas,Poland,92.95
+Pancreas,Portugal,84.15
+Pancreas,Romania,70.91
+Pancreas,Russia,88.72
+Pancreas,Rwanda,2.58
+Pancreas,Sao Tome and Principe,52.16
+Pancreas,Saudi Arabia,84.2
+Pancreas,Scotland,39.06
+Pancreas,Senegal,71.83
+Pancreas,Serbia,31.28
+Pancreas,Singapore,59.04
+Pancreas,South Africa,57.03
+Pancreas,Spain,84.91
+Pancreas,Sri Lanka,9.56
+Pancreas,Sudan,73.59
+Pancreas,Sweden,86.6
+Pancreas,Switzerland,68.64
+Pancreas,Taiwan,79.26
+Pancreas,Thailand,57.84
+Pancreas,Tunisia,73.01
+Pancreas,Turkey,64.46
+Pancreas,Uganda,75.71
+Pancreas,United Arab Emirates,N/A
+Pancreas,United Kingdom,77.82
+Pancreas,United States,88.26
+Pancreas,Venezuela,95.12
+Pancreas,Vietnam,55.13
+Pancreas,Wales,1.59
+Pancreas,Zambia,75.83
+Pancreas,Zimbabwe,73.42
+Thyroid,Algeria,N/A
+Thyroid,American Samoa,96.93
+Thyroid,Argentina,84.08
+Thyroid,Australia,96.5
+Thyroid,Austria,94.83
+Thyroid,Belgium,87.3
+Thyroid,Brazil,98.83
+Thyroid,Bulgaria,99.13
+Thyroid,Burkina Faso,81.25
+Thyroid,Cameroon,95.99
+Thyroid,Cape Verde,90.13
+Thyroid,Central African Republic,89.25
+Thyroid,Chile,95.96
+Thyroid,China,92.8
+Thyroid,Colombia,9.45
+Thyroid,Croatia,97.18
+Thyroid,Cuba,88.72
+Thyroid,Czech Republic,99.05
+Thyroid,Ecuador,73.88
+Thyroid,England,98.97
+Thyroid,Equatorial Guinea,39.16
+Thyroid,Finland,99.92
+Thyroid,France,99.41
+Thyroid,Georgia,98.34
+Thyroid,Germany,99.73
+Thyroid,Guatemala,3.36
+Thyroid,Guinea-Bissau,83.98
+Thyroid,Hong Kong,73.57
+Thyroid,India,91.16
+Thyroid,Indonesia,79.45
+Thyroid,Iran,97.65
+Thyroid,Ireland Northern,99.8
+Thyroid,Ireland South,99.69
+Thyroid,Israel,94.16
+Thyroid,Italy,99.53
+Thyroid,Ivory Coast,48.94
+Thyroid,Japan,97.16
+Thyroid,Jordan,85.96
+Thyroid,Kenya,94.03
+Thyroid,Korea; South,97.57
+Thyroid,Lebanon,88.84
+Thyroid,Macedonia,38.21
+Thyroid,Malaysia,73.92
+Thyroid,Mali,98.11
+Thyroid,Mexico,99.88
+Thyroid,Mongolia,75.44
+Thyroid,Morocco,97.83
+Thyroid,New Caledonia,97.05
+Thyroid,Oman,88.45
+Thyroid,Pakistan,84.21
+Thyroid,Papua New Guinea,93.8
+Thyroid,Peru,98.48
+Thyroid,Philippines,99.72
+Thyroid,Poland,99.62
+Thyroid,Portugal,97.97
+Thyroid,Romania,95.15
+Thyroid,Russia,99.05
+Thyroid,Rwanda,8.4
+Thyroid,Sao Tome and Principe,71.68
+Thyroid,Saudi Arabia,96.66
+Thyroid,Scotland,42.97
+Thyroid,Senegal,97.6
+Thyroid,Serbia,70.08
+Thyroid,Singapore,93.49
+Thyroid,South Africa,92.33
+Thyroid,Spain,98.68
+Thyroid,Sri Lanka,27.24
+Thyroid,Sudan,96.71
+Thyroid,Sweden,98.35
+Thyroid,Switzerland,89.7
+Thyroid,Taiwan,96.62
+Thyroid,Thailand,95.14
+Thyroid,Tunisia,97.54
+Thyroid,Turkey,69.77
+Thyroid,Uganda,95.72
+Thyroid,United Arab Emirates,8.61
+Thyroid,United Kingdom,94.48
+Thyroid,United States,98.93
+Thyroid,Venezuela,98.8
+Thyroid,Vietnam,93.09
+Thyroid,Wales,2.58
+Thyroid,Zambia,97.36
+Thyroid,Zimbabwe,97.13
+Uterus,Algeria,N/A
+Uterus,American Samoa,99.89
+Uterus,Argentina,98.46
+Uterus,Australia,99.92
+Uterus,Austria,99.97
+Uterus,Belgium,99.51
+Uterus,Brazil,99.74
+Uterus,Bulgaria,99.97
+Uterus,Burkina Faso,97.66
+Uterus,Cameroon,99.58
+Uterus,Cape Verde,99.08
+Uterus,Central African Republic,94.81
+Uterus,Chile,99.3
+Uterus,China,99.59
+Uterus,Colombia,9.01
+Uterus,Croatia,99.92
+Uterus,Cuba,98.8
+Uterus,Czech Republic,99.97
+Uterus,Ecuador,76.97
+Uterus,England,99.99
+Uterus,Equatorial Guinea,39.94
+Uterus,Finland,100.0
+Uterus,France,99.97
+Uterus,Georgia,99.91
+Uterus,Germany,100.0
+Uterus,Guatemala,7.59
+Uterus,Guinea-Bissau,97.53
+Uterus,Hong Kong,96.23
+Uterus,India,97.96
+Uterus,Indonesia,89.01
+Uterus,Iran,99.89
+Uterus,Ireland Northern,100.0
+Uterus,Ireland South,100.0
+Uterus,Israel,98.73
+Uterus,Italy,99.99
+Uterus,Ivory Coast,91.97
+Uterus,Japan,99.98
+Uterus,Jordan,96.64
+Uterus,Kenya,99.76
+Uterus,Korea; South,99.93
+Uterus,Lebanon,99.44
+Uterus,Macedonia,63.36
+Uterus,Malaysia,89.59
+Uterus,Mali,100.0
+Uterus,Mexico,99.99
+Uterus,Mongolia,93.33
+Uterus,Morocco,99.93
+Uterus,New Caledonia,99.98
+Uterus,Oman,99.66
+Uterus,Pakistan,98.04
+Uterus,Papua New Guinea,99.94
+Uterus,Peru,99.99
+Uterus,Philippines,99.97
+Uterus,Poland,99.99
+Uterus,Portugal,99.76
+Uterus,Romania,99.84
+Uterus,Russia,99.91
+Uterus,Rwanda,60.47
+Uterus,Sao Tome and Principe,97.4
+Uterus,Saudi Arabia,99.88
+Uterus,Scotland,82.19
+Uterus,Senegal,99.48
+Uterus,Serbia,96.65
+Uterus,Singapore,99.03
+Uterus,South Africa,99.66
+Uterus,Spain,99.96
+Uterus,Sri Lanka,49.02
+Uterus,Sudan,99.82
+Uterus,Sweden,99.99
+Uterus,Switzerland,97.69
+Uterus,Taiwan,99.96
+Uterus,Thailand,99.61
+Uterus,Tunisia,99.78
+Uterus,Turkey,80.48
+Uterus,Uganda,99.61
+Uterus,United Arab Emirates,10.51
+Uterus,United Kingdom,99.9
+Uterus,United States,99.78
+Uterus,Venezuela,99.84
+Uterus,Vietnam,99.57
+Uterus,Wales,2.58
+Uterus,Zambia,99.92
+Uterus,Zimbabwe,99.91

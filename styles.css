@@ -1,0 +1,35 @@
+
+
+/* Change the background color of the sidebar */
+.shiny-sidebar {
+  background-color: #e5cdf5;
+}
+
+/* Change the background color of the navigation bar */
+.navbar-nav {
+  background-color: #e5cdf5;
+}
+
+/* Optional: Change the text color if needed for better visibility */
+.shiny-sidebar .sidebar-menu a {
+  color: #000; /* Change this to your preferred text color */
+}
+
+.navbar-nav .nav-item a {
+  color: #000; /* Change this to your preferred text color */
+}
+
+/* :root {
+  --bslib-sidebar-main-bg: #f8f8f8;
+}
+
+.popover {
+  --bs-popover-header-bg: #222;
+  --bs-popover-header-color: #fff;
+}
+
+.popover .btn-close {
+  filter: var(--bs-btn-close-white-filter);
+} */
+
+
