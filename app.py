@@ -12,7 +12,7 @@ from shared import df, pairs
 from covfiles import covlist, pcov, world, regions, countries, getPoptype, matchData, totalCov, covstring
 
 # Import data for differential abundance
-from differential_abundance_data import inhouse_hcc_data as hcc
+#from differential_abundance_data import inhouse_hcc_data as hcc
 from differential_abundance_data import bmi_dataframe as bmi
 
 # Define the color palette
@@ -58,7 +58,7 @@ app_ui = ui.page_sidebar(
             ui.div(
                 ui.input_action_button("select_all", "Select all"),
                 ui.input_action_button("select_none", "Deselect all"),
-                class_="d-flex gap-2 flex-wrap"
+                class_="d-flex gap-3 flex-wrap"
             ),
             ui.input_checkbox_group(
                 "mutationType",
@@ -66,8 +66,8 @@ app_ui = ui.page_sidebar(
                 choices=["SNV", "Fusion", "INDEL"],
                 selected=["SNV", "Fusion", "INDEL"]
             ),
-            ui.input_switch("pidentFilter", "Show 100.00", value=False),
-            ui.input_action_button("reset", "Reset filter")
+            ui.input_switch("pidentFilter", "Only 100%", value=True),
+            ui.input_action_button("reset", "Reset filter(s)")
         ),
         ui.panel_conditional(
             "input.tabs == 'diff_abundance'",
@@ -450,12 +450,23 @@ def server(input, output, session):
         starting = [STARTING_SAMPLES.get(c, 0) for c in cancers]
         matches = [full_matches.get(c, 0) for c in cancers]
         fig = go.Figure(data=[
+            go.Scatter(x=starting, y=matches, marker_color=color_palette, mode='markers',marker_size=20,
+                       hovertext=cancers, name="Cancer")
+        ])
+        '''
+        fig = go.Figure(data=[
             go.Bar(name='Starting Samples', x=cancers, y=starting, marker_color=color_palette[0],
                    hovertemplate='<b>%{x}</b><br>Starting: %{y}<extra></extra>'),
             go.Bar(name='Full Matches', x=cancers, y=matches, marker_color=color_palette[1],
                    hovertemplate='<b>%{x}</b><br>Matches: %{y}<extra></extra>')
         ])
         fig.update_layout(title="Starting Samples vs Full Matches by Cancer Type", xaxis_title="Cancer Type", yaxis_title="Count", barmode='group')
+        '''
+        fig.update_layout(title="Starting Samples vs Full Matches by Cancer Type",
+                           xaxis_title="Number of epitopes", yaxis_title="Number of matches",
+                          hovermode="x unified" ,
+                          showlegend=True                        
+                        )
         return fig
 
     # 6. Number of mutations per cancer
@@ -467,7 +478,7 @@ def server(input, output, session):
             return go.Figure(layout_title_text="Number of Mutations per Cancer (no data matching filters)")
         mutation_counts = filtered_df.groupby('Cancer').size().reset_index(name='count')
         fig = go.Figure(data=[go.Bar(x=mutation_counts['Cancer'], y=mutation_counts['count'],
-                                     marker_color=color_palette[0],
+                                     marker_color=color_palette,
                                      hovertemplate='<b>%{x}</b><br>Count: %{y}<extra></extra>')])
         fig.update_layout(title="Number of Mutations per Cancer", xaxis_title="Cancer", yaxis_title="Count", showlegend=False)
         return fig
@@ -667,6 +678,27 @@ def server(input, output, session):
                           yaxis_title="Net4 aff (nM)", xaxis_title="Mutation Type", showlegend=False)
         return fig
 
+    # 12_v2. Binding affinity density
+    @output
+    @sw.render_widget
+    def binding_affinity_density2():
+        filtered_df = get_filtered_df()
+        if filtered_df.empty:
+            return go.Figure(layout_title_text="Microbial protein vs Binding Affinity (Net4_aff) (no data matching filters)")
+        plot_df = filtered_df[filtered_df['Net4 aff (nM)'].notna()]
+        fig = go.Figure()
+        for i, mutation in enumerate(plot_df['Subject'].unique()):
+            print(i)
+            mutation_data = plot_df[plot_df['Subject'] == mutation]['Net4 aff (nM)']
+            fig.add_trace(go.Violin(
+                y=mutation_data, name=mutation, box_visible=True, meanline_visible=True,
+                marker_color=color_palette[i % len(color_palette)],
+                hovertemplate='%{fullData.name}<br>Value: %{y:.2f}<extra></extra>'
+            ))
+        fig.update_layout(title="Microbial protein vs Binding Affinity (Net4_aff)",
+                          yaxis_title="Net4 aff (nM)", xaxis_title="Microbial protein", showlegend=False)
+        return fig
+    
     # 13. Mutations per body location
     @output
     @sw.render_widget
@@ -819,14 +851,14 @@ def server(input, output, session):
     def figure():
         from pathlib import Path
         dir = Path(__file__).resolve().parent
-        img: ImgData = {"src": str(dir / "figure.png"), "width": "100px"}
+        img: ImgData = {"src": str(dir / "figs/figure.png"), "width": "100px"}
         return img
     
     @render.image
     def workflow():
         from pathlib import Path
         dir = Path(__file__).resolve().parent
-        img: ImgData = {"src": str(dir / "workflow.png"), "width": "200px"}
+        img: ImgData = {"src": str(dir / "figs/workflow.png"), "width": "200px"}
         return img
     
 
