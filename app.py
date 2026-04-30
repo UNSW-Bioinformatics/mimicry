@@ -313,22 +313,13 @@ app_ui = ui.page_sidebar(
                 ),
                 value = "microbiome"
             ),
-            ui.nav_panel("Differential Abundance",
-                ui.panel_conditional(
-                    "input.comparison_type == 'Liver disease vs Healthy'",
-                    ui.output_text('show_hcc_description'),
-                    sw.output_widget("inhouse_liver_volcano_plot"),
-                    ui.output_data_frame("show_df")
-                ),
-                ui.panel_conditional(
-                    "input.comparison_type == 'BMI comparison'",
-                    ui.output_text('show_bmi_description'),
-                    sw.output_widget("bmi_volcano_plot"),
-                    ui.output_data_frame("show_df_bmi"),
-                ),
-                value = "diff_abundance"
+            ui.nav_panel("Peptide search", 
+                ui.h5("Epitope table"), 
+                ui.output_data_frame('pan_cancer'),
+                
+                value = "pep_search_data"
             ),
-            ui.nav_panel("Genome Locations", ui.markdown("This is the third page.")),
+           # ui.nav_panel("Genome Locations", ui.markdown("This is the third page.")),
             ui.nav_panel("Epitope Coverage",
                 ui.card(
                     ui.output_text('cov_summary'),
@@ -693,7 +684,7 @@ def server(input, output, session):
     @render.text
     def show_hcc_description():
         return "This page shows differential abundance of microbial in healthy people vs patients with " + ", ".join(input.disease_group()) + " in either oral or stool. The positive fold changes indicate more abundance in patients compare to healthy people. The data frame under the plot shows the calculated data that is used to show the abundance."
-
+    
     @output
     @sw.render_widget
     def inhouse_liver_volcano_plot():
@@ -836,8 +827,30 @@ def server(input, output, session):
         from pathlib import Path
         dir = Path(__file__).resolve().parent
         img: ImgData = {"src": str(dir / "workflow.png"), "width": "200px"}
-
         return img
+    
+
+    @render.code
+    def pan_cancer_filter():
+        return pan_cancer.filter()  
+    
+    @render.ui
+    def rows():
+        rows = pan_cancer.cell_selection()["rows"]  
+        selected = ", ".join(str(i) for i in sorted(rows)) if rows else "None"
+        return f"Rows selected: {selected}"
+
+    @render.data_frame
+    def pan_cancer():
+        filtered_df = get_filtered_df()
+        # Select certain columns 
+        filtered_df_select = filtered_df[['Query', 'Length', 'Cancer', 'Mutation',  'Variant', 
+                                          'PIdentity', 'Coverage', 
+                                          'Subject', 'TaxID', 'Organism',  'Microbe location',
+                                          'HLA', 'MHC class', 'Source' ]] 
+        # Update/reset filters
+        return render.DataTable(filtered_df_select, selection_mode="rows", filters=True) 
+
     
 app = App(app_ui, server)
 
