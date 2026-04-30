@@ -13,4 +13,4 @@ or download the github through the link.
 `pip3 install -r requirements.txt`  
 5.  Run app!
 `python3 app.py`
-6. This should provide a local URL e.g., http://128.2.4.1:8000 which you can open in your browser
+6. This should provide a local URL (e.g.,128.2.4.1:8000) which you can open in your browser
