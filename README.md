@@ -8,7 +8,7 @@ The human microbiome is a complex ecosystem of microorganisms inhabiting various
 2. Run:
 `git clone https://github.com/UNSW-Bioinformatics/cancervacc/repo.git`
 or download the github through the link. 
-3. Within terminal, navigate to the cancervacc repo 
+3. Within a terminal, navigate to the cancervacc repo 
 4. Install required libraries
 `pip3 install -r requirements.txt`  
 5.  Run app!
