@@ -57,7 +57,7 @@ app_ui = ui.page_sidebar(
             ),
             ui.div(
                 ui.input_action_button("select_all", "Select all"),
-                ui.input_action_button("select_none", "Untick all"),
+                ui.input_action_button("select_none", "Deselect all"),
                 class_="d-flex gap-2 flex-wrap"
             ),
             ui.input_checkbox_group(
@@ -119,14 +119,18 @@ app_ui = ui.page_sidebar(
     ),
     ui.card(
         ui.navset_tab(
-            ui.nav_panel("Home",
-                ui.card(
+            ui.nav_panel("Home",                
+                ui.output_image("figure", height="100px"),
+                ui.card(                    
                     ui.markdown("""
+                    ## MIMICRY: A database of Microbial Immunogenic Mimicry in Cancer
                     ### Overview
-                    
-                    To add description text here.
+                    * Recent studies suggest a connection between the human microbiome and cancer, particularly through immune modulation.
+                    * Here, we present a database of eptitopes that are shared between common cancers and the human microbiome from HGMD.
+                    * Tumor antigens have been compared to all peptides in all human microbiota generating a list of shared epitopes.  
+                    * Our resource aims to facilitate the exploration of shared epitopes in cancer research, potentially leading to breakthroughs in understanding tumor immunity and the development of novel immunotherapeutic strategies.
                     """)
-                ),
+                ),  
                 value = "home"
             ),
             ui.nav_panel("Database Overview",
@@ -819,7 +823,22 @@ def server(input, output, session):
     @render.text
     def cov_summary():
         return covstring
+    
+    @render.image
+    def figure():
+        from pathlib import Path
+        dir = Path(__file__).resolve().parent
+        img: ImgData = {"src": str(dir / "figure.png"), "width": "100px"}
+        return img
+    
+    @render.image
+    def workflow():
+        from pathlib import Path
+        dir = Path(__file__).resolve().parent
+        img: ImgData = {"src": str(dir / "workflow.png"), "width": "200px"}
 
+        return img
+    
 app = App(app_ui, server)
 
 if __name__ == "__main__":
