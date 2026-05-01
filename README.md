@@ -6,11 +6,18 @@ The human microbiome is a complex ecosystem of microorganisms inhabiting various
 ## Instructions for a local version of the app
 1. Open a terminal (or VS Code terminal).
 2. Run:
+
 `git clone https://github.com/UNSW-Bioinformatics/cancervacc/repo.git`
+
 or download the github through the link. 
-3. Within terminal, navigate to the cancervacc repo 
+
+3. Within a terminal, navigate to the `cancervacc` repo
+   
 4. Install required libraries
-`pip3 install -r requirements.txt`  
+
+`pip3 install -r requirements.txt`
+
 5.  Run app!
 `python3 app.py`
-6. This should provide a local URL e.g., http://128.2.4.1:8000 which you can open in your browser
+
+6. This should provide a local URL (e.g.,128.2.4.1:8000) which you can open in your browser
