@@ -210,10 +210,10 @@ app_ui = ui.page_sidebar(
                 ui.card(
                     ui.card_header(
                         ui.div(
-                            "Unique Queries per Cancer / Variant",
+                            "Unique Epitopes per Cancer / Variant",
                             ui.popover(
                                 ui.span("ℹ️", style="cursor: pointer; margin-left: 10px;"),
-                                "Shows the number of unique queries with each variant type per cancer.",
+                                "Shows the number of unique epitopes with each variant type per cancer.",
                                 placement="right"
                             ),
                             style="display: flex; align-items: center;"
@@ -532,10 +532,10 @@ def server(input, output, session):
     def individuals_per_cancer_bar():
         filtered_df = get_filtered_df()
         if filtered_df.empty:
-            return go.Figure(layout_title_text="Number of Queries per Cancer / Variant (no data matching filters)")
+            return go.Figure(layout_title_text="Number of Epitopes per Cancer / Variant (no data matching filters)")
         individuals_counts = filtered_df.groupby(['Cancer', 'Variant'])['Query'].nunique().reset_index(name='count')
         fig = px.bar(individuals_counts, x='Cancer', y='count', color='Variant',
-                     title="Number of Queries per Cancer / Variant",
+                     title="Number of Epitopes per Cancer / Variant",
                      color_discrete_sequence=color_palette, labels={'count': 'Unique Individuals'})
         fig.update_traces(hovertemplate='<b>%{x}</b><br>%{fullData.name}: %{y}<extra></extra>')
         return fig
