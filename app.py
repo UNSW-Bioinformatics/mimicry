@@ -315,11 +315,14 @@ app_ui = ui.page_sidebar(
             ),
             ui.nav_panel("Peptide search", 
                 ui.h5("Epitope table"), 
-                ui.output_data_frame('pan_cancer'),
-                
+                ui.output_data_frame('pan_cancer'),                
                 value = "pep_search_data"
             ),
-           # ui.nav_panel("Genome Locations", ui.markdown("This is the third page.")),
+            ui.nav_panel("Protein to Cancer", 
+                ui.h5("Proteins and cancer table"), 
+                ui.output_data_frame('subject_to_cancer'),
+                value = "sub_search_data"
+            ),
             ui.nav_panel("Epitope Coverage",
                 ui.card(
                     ui.output_text('cov_summary'),
@@ -713,6 +716,7 @@ def server(input, output, session):
         fig.update_layout(title="Mutations per Body Location", xaxis_title="Body Location", yaxis_title="Count", showlegend=False)
         return fig
 
+    # Differential abundance 
     @render.text
     def show_hcc_description():
         return "This page shows differential abundance of microbial in healthy people vs patients with " + ", ".join(input.disease_group()) + " in either oral or stool. The positive fold changes indicate more abundance in patients compare to healthy people. The data frame under the plot shows the calculated data that is used to show the abundance."
@@ -803,6 +807,7 @@ def server(input, output, session):
             selected_columns = pd.concat([selected_columns, df_sample[['mean obesity', 'pvalue Obesity to healthy weight', 'ratio of Obesity to healthy weight', 'log2FC_Obesity', 'negative_log_pval_obesity']]], axis=1)
         return render.DataGrid(selected_columns)
 
+    # Coverage tab 
     @output
     @render.plot
     def cov_bar_plot():
@@ -843,6 +848,7 @@ def server(input, output, session):
                 if pcov['Cancer'][i] == cancer and pcov['Area'][i] == area:
                     return totalCov(pcov, cancer, area, ctype, retstr, num, i)
 
+    # Other 
     @render.text
     def cov_summary():
         return covstring
@@ -861,7 +867,7 @@ def server(input, output, session):
         img: ImgData = {"src": str(dir / "figs/workflow.png"), "width": "200px"}
         return img
     
-
+    # Epitope table 
     @render.code
     def pan_cancer_filter():
         return pan_cancer.filter()  
@@ -882,8 +888,20 @@ def server(input, output, session):
                                           'HLA', 'MHC class', 'Source' ]] 
         # Update/reset filters
         return render.DataTable(filtered_df_select, selection_mode="rows", filters=True) 
-
-    
+    # Protein per cancer recurrence table
+    @output
+    @render.data_frame
+    def subject_to_cancer():
+        filtered_df = df
+        subjects_counts = filtered_df.pivot_table(index='Subject', columns='Cancer', aggfunc='size', fill_value=0)
+        subjects_counts_bool= subjects_counts>0
+        subjects_counts = subjects_counts.assign(Protein = subjects_counts.index.tolist() )
+        subjects_counts = subjects_counts.assign(Recurrence = subjects_counts_bool.sum(axis=1) )
+        subjects_counts = subjects_counts[subjects_counts['Recurrence'] > 1 ]
+        subjects_counts = subjects_counts.sort_values(by='Recurrence', ascending=False)
+        return render.DataTable(subjects_counts, selection_mode="rows", filters=True)  
+ 
+  
 app = App(app_ui, server)
 
 if __name__ == "__main__":
