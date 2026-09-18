@@ -1,5 +1,5 @@
 ---
-title: Searching in MIMICRY
+title: Population coverage in MIMICRY
 shortTitle: <subject> # Max 31 characters
 intro: 'Article intro. See tips for a great intro below.'
 product: "{{ optional product callout }}"
@@ -7,6 +7,20 @@ contentType: how-tos
 versions:
   - 1 
 ---
+
+The Population Coverage page answers: for a given population, what share carries
+an HLA type that would present at least one of the mimicked peptides for a given
+cancer, tissue or gene.
+
+The calculation is the IEDB method, reimplemented in `site/popcov.py` using only
+the standard library. The IEDB distribution needs numpy and ships its
+frequencies as a pickle, neither of which survives a CGI process on CSE. The
+maths is unchanged: diploid genotypes are enumerated within each locus, loci are
+combined assuming independence, and where a locus's frequencies do not sum to 1
+the shortfall becomes an untyped allele that binds nothing, which keeps the
+result a lower bound.
+ 
+
 
 {% comment %}
 Follow the guidelines in https://docs.github.com/contributing/writing-for-github-docs/content-model to write this article.
