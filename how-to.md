@@ -1,11 +1,11 @@
 ---
-title: Start with a present participle
+title: Searching in MIMICRY
 shortTitle: <subject> # Max 31 characters
 intro: 'Article intro. See tips for a great intro below.'
 product: "{{ optional product callout }}"
 contentType: how-tos
 versions:
-  - <version>
+  - 1 
 ---
 
 {% comment %}
