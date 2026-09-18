@@ -1,9 +1,11 @@
+---
 title: Quickstart title
 shortTitle: <subject> # Max 31 characters
 intro: 'Article intro. Highlight that the guide is quick and to the point.'
 contentType: get-started
 versions:
   - <version>
+---
 
 {% comment %}
 Follow the guidelines in https://docs.github.com/contributing/writing-for-github-docs/content-model#quickstart to write this article.
