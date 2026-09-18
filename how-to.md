@@ -1,40 +1,39 @@
-# How-to content type
+---
+title: Start with a present participle
+shortTitle: <subject> # Max 31 characters
+intro: 'Article intro. See tips for a great intro below.'
+product: "{{ optional product callout }}"
+contentType: how-tos
+versions:
+  - <version>
+---
 
-Explain how to complete a task using GitHub products and features.
+{% comment %}
+Follow the guidelines in https://docs.github.com/contributing/writing-for-github-docs/content-model to write this article.
+Great intros give readers a quick understanding of what's in the article, so they can tell whether it's relevant to them before moving ahead. For more tips, see https://docs.github.com/contributing/writing-for-github-docs/content-model
+For product callout info, see https://github.com/github/docs/tree/main/content#product
+For product version instructions, see https://github.com/github/docs/tree/main/content#versioning
+Remove these comments from your article file when you're done writing
+{% endcomment %}
 
-How-tos contain numbered steps that describe how to use GitHub products to accomplish a task. Generally, they are necessary to get the most from using GitHub.
+## Procedural section header here
 
-How-to articles focus on the minimum essential steps for completing a task. They may link to other content types as prerequisites (especially concepts or reference) or next steps (especially tutorials). In keeping with our linking strategy, these should be used only when explicitly useful and necessary.
+{% comment %}
+Include prerequisite information or specific permissions information here.
+Then write procedural steps following the instructions in https://docs.github.com/contributing/style-guide-and-content-model/style-guide#procedural-steps.
+Check if there's already a reusable string for the step you want to write in https://github.com/github/docs/tree/main/data/reusables. Look at the source file for a procedure located in the same area of the user interface to find reusables.
+{% endcomment %}
 
-Generally including 1-2 brief introductory sentences before the steps is fine. If more explanation beyond a couple of sentences is needed, consider adding the information instead as a conceptual article.
+## Optionally, another procedural section here
 
-Troubleshooting is its own content type, but how-to articles can include short troubleshooting sections where this helps people complete the task.
+{% comment %}
+Keep adding procedures until you've finished writing your article.
+{% endcomment %}
 
-## Titles for how-to articles
+## Further reading
 
-How-to article titles and sections within articles are task-based and begin with a gerund.
+{% comment %}
+Optionally, include a bulleted list of related articles the user can reference to extend the concepts covered in this article. Consider linking to procedural articles or tutorials that help the user use the information in your article.
+{% endcomment %}
 
-* Use: "Applying for a student developer pack"
-  Use active and specific verbs (brainstorm or use a thesaurus when needed).
-  Titles specifically describe the task contained within the article or header, but are general enough to reflect all of the content.
-
-How-to article short titles use short, non-gerund verb phrases. Short titles appear in the sidebar navigation.
-
-* Use: “Manage your plan” or “Create issues with Copilot”
-
-## How-to considerations
-
-For the how-to content template, see [Templates](/en/contributing/writing-for-github-docs/templates#how-to-article-template).
-
-* Follow the style guidelines for procedural steps in [Style guide](/en/contributing/style-guide-and-content-model/style-guide#procedural-steps).
-* How-to content can get repetitive––look for opportunities to group related content into a single longer article.
-  * Group multiple related how-tos into a single article unless there's a compelling reason not to.
-  * If disabling a setting or undoing a task requires the same steps and has no special implications, do not write a separate how-to.
-  * If disabling a setting or undoing a task requires different steps or has important or special implications, create a longer article to contain both how-tos.
-* Always include the intended outcome of the how-to (generally this will be the title).
-* Include troubleshooting tips in known pain points.
-
-## Examples of how-to content
-
-* [Creating GitHub Copilot Spaces](/en/copilot/how-tos/copilot-on-github/customize-copilot/copilot-spaces/create-copilot-spaces)
-* [Using workflow templates](/en/actions/how-tos/write-workflows/use-workflow-templates)
+- [Article title](article-URL)
