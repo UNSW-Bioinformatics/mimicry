@@ -5,7 +5,7 @@ The dashboard is located here: https://cgi.cse.unsw.edu.au/~mimicry/
 
 https://cgi.cse.unsw.edu.au/~z3021002/mimicry/
 
-[##Quickstart](/how_to_files/quickstart.md)
+##[Quickstart](/how_to_files/quickstart.md)
 ### How-tos 
 [How to search](/how_to_files/how-to-search.md)
 
