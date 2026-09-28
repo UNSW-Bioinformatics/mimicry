@@ -8,9 +8,15 @@ https://cgi.cse.unsw.edu.au/~z3021002/mimicry/
 ### Start here!
 [Quickstart](/how_to_files/quickstart.md)
 ### How-tos 
-[How to search](/how_to_files/how-to-search.md)
+[Peptide Search](/how_to_files/how-to-search.md) -> searching and filtering for candidates   
 
-[How to work on pop coverage](/how_to_files/how-to-popcov.md)
+[Cancer & Mutation](how-to-cancer.md) -> exploring the peptide data and its origins. 
 
+[Microbiome and Body Locations](how-to-micro.md) -> highlighting the microbial mimicry landscape. 
 
+[HLA Binding](how-to-bind.md) -> characterisation of the immunogenicity of the data. 
+
+[Population Coverage](/how_to_files/how-to-popcov.md) -> insights into the immune response  
+
+[Custom Chart](how-to-custom.md)-> a sandbox for users  
 
