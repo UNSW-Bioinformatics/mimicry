@@ -1,5 +1,6 @@
 ## How-to: use the search
-One of the main features of the database is the set of candidate mimicry-peptides which are displayed as a customisable table in the “Peptide Search” section. Users can search on three fields using the search bar in the filters side bar. Typing into the text box searches on peptide sequence, microbial organism name, and human gene symbol. 
+One of the main features of the database is the set of candidate mimicry-peptides which are displayed as a customisable table in the “Peptide Search” section. Users can search on three fields using the search bar in the filters side bar. Typing into the text box searches on peptide sequence, microbial organism name, and human gene symbol. This is the main search functionality. 
+
 _Quick tip: MIMICRY uses the same free-text search box for peptide sequences, microbial organism names, and human gene symbols. For example, searching KRT can retrieve keratin-related gene records, while entering an amino-acid sequence searches for records containing that sequence and peptides with that as a sub-sequence as well._
 
 ### Searching using peptides 
