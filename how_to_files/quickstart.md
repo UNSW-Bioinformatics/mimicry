@@ -39,6 +39,8 @@ _Important: A database match should be treated as a candidate for further invest
 ## Further analysis
 There are multiple additional tabs to work through more in-depth analyses. We link the individual guides below:  
 
+[Peptide Search](how-to-search.md) -> exploring the peptide data and its origins. 
+
 [Cancer & Mutation](how-to-cancer.md) -> exploring the peptide data and its origins. 
 
 [Microbiome and Body Locations](how-to-micro.md) -> highlighting the microbial mimicry landscape. 
