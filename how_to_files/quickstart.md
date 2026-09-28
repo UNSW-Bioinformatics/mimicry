@@ -38,10 +38,15 @@ _Important: A database match should be treated as a candidate for further invest
 
 ## Further analysis
 There are multiple additional tabs to work through more in-depth analyses. We link the individual guides below:  
+
 [Cancer & Mutation](how-to-cancer.md) -> exploring the peptide data and its origins. 
+
 [Microbiome and Body Locations](how-to-micro.md) -> highlighting the microbial mimicry landscape. 
+
 [HLA Binding](how-to-bind.md) -> characterisation of the immunogenicity of the data. 
+
 [Population Coverage](how-to-popcov.md) -> insights into the immune response  
+
 [Custom Chart](how-to-custom.md)-> a sandbox for users  
 
 ### Need More Help?
