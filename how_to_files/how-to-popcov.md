@@ -1,9 +1,8 @@
 ## How-to: population coverage analysis
 The Population Coverage page answers for a given population, what share carries an HLA type that would present at least one of the mimicked peptides for a given cancer, tissue or gene. Population coverage is based on the distribution of HLA alleles in different populations. Because HLA allele frequencies vary geographically and between populations, a peptide predicted to interact with particular HLA alleles may have different estimated coverage across populations.
 
-The calculation is the [IEDB method](https://tools.iedb.org/population/) and their allele frequencies, reimplemented in `bin/popcov.py`. 
-Diploid genotypes are enumerated within each locus, loci are combined assuming independence, and where a locus's frequencies do not sum to 1
-the shortfall becomes an untyped allele that binds nothing, which keeps the result a lower bound.
+The calculation is the [IEDB method](https://tools.iedb.org/population/) and their allele frequencies. 
+Diploid genotypes are enumerated within each locus, loci are combined assuming independence, and where a locus's frequencies do not sum to 1, the shortfall becomes an untyped allele that binds nothing, which keeps the result a lower bound.
   
 ### Coverage calculator
 From a MIMICRY result, open the Population Coverage tab to view the estimated population coverage associated with the peptide and its HLA predictions. One of the questions this can answer is whether the peptide is relevant across many populations, or if is its predicted HLA presentation concentrated in particular population. Higher coverage indicates that a greater proportion of individuals in that population are estimated to carry one or more of the relevant HLA alleles.
