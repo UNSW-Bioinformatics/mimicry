@@ -4,8 +4,6 @@ The human microbiome is a complex ecosystem of microorganisms inhabiting various
 
 The dashboard is located here: https://cgi.cse.unsw.edu.au/~mimicry/
 
-https://cgi.cse.unsw.edu.au/~z3021002/mimicry/
-
 ### Start here!
 [Quickstart](/how_to_files/quickstart.md)
 ### How-tos 
