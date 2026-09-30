@@ -18,8 +18,7 @@ The database uses peptides from multiple sources. These cannot be copied over he
 | NeoDB	|		|  | 	 	| 	https://github.com/XSLiuLab/Neodb | 
 |  	|		| neodb_all.xlsx | 	neodb	|  https://zenodo.org/records/16892216 | 
 | CEDAR	|	 |		| 		| https://cedar.iedb.org/ | 
-| 	|	TCells |	tcell_export.csv	| taa_cedar		| https://cedar.iedb.org/ |
-| 	|	TCells |	tcell_export.csv	| taa_cedar		| https://cedar.iedb.org/ |
+| 	|	TCells |	tcell_full_v3.csv	| taa_cedar		|  https://cedar.iedb.org/downloader.php?file_name=doc/tcell_full_v3.zip  |
 | ISE  	|  	| 	| 	| http://www.bio-bigdata.com.cn/ISE/index/ | 
 |   	|  Cancers:  | AML; B-ALL; BRCA; CCRC;  COAD;	GBM; MG; NB; NHL; NSCLC; OV; SKCM; T-ALL	| 	| http://www.bio-bigdata.com.cn/ISE/dataDownload/ | 
 |   	|  Normal tissues:  | Adrenal Gland; Aorta; Bladder;  Bone Marrow; Brain; Breast;  Cerebellum; Colon; Esophagus; Gallbladder; Heart; Kidney; Liver; Lung; Lymph Node; Muscle; Ovary; Pancreas; Prostate; Skin; Small intestine; Spleen; Stomach; Testis; Thymus; Thyroid; Tongue; Trachea; Uterus	| 	| http://www.bio-bigdata.com.cn/ISE/dataDownload/ | 
