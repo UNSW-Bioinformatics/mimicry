@@ -7,5 +7,6 @@ This folder contains the different scripts used to generate the peptide candidat
 4. mhc_pred.py -> this runs mhcflurry on all the FASTA files in the provided directory. Note, this assumes you have installed MHCflurry and its associated tools, and installed its python library. 
 5. netmhc_pred.sh -> this runs netMHCpan4.2 on each FASTA file. Note, this assumes you have this installed locally. Adjust script for your local setup.
 6. extract_table.py -> this takes the blast outputs and overlaps them with the HMRGD data.
-7. combine_hlas_pred.py -> this takes the HLA predictions and merges them with the match tables outputs. 
+7. combine_hlas_results.sh -> this takes the HLA predictions and merges them. 
+8. combine_match_tables_with_high_binding_hla.py ->? this takes the combined HLA predictions and merges them with the match tables outputs. 
 
