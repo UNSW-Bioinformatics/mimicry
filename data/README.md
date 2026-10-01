@@ -29,11 +29,13 @@ The database uses peptides from multiple sources. These cannot be copied over he
 |   	|  Immunogenic	| immunogenicNeo-peptideDataset.xlsx	| tumoragdb_imm	| https://tumoragdb.com.cn/files/immunogenic%20Neo-peptide%20Dataset.xlsx | 
 |   	|  Non-immunogenic	| Non-immunogenicNeo-peptideDataset.xlsx	| tumoragdb_non	|  https://tumoragdb.com.cn/files/Non-immunogenic%20Neo-peptide%20Dataset.xlsx |   
 | CaAtlas  	|  	| 	| 	|  https://www.zhang-lab.org/caatlas/ | 
-|   	|  PTM	| PTMAntigenList_SiteLevel.txt	| caatlas	|   | 
-|   	|  CAAs	| CancerAssociatedAntigensList.txt	| caatlas_extra	|   | 
+|   	|  PTM	| PTMAntigenList_SiteLevel.txt	| caatlas	|  https://www.zhang-lab.org/caatlas/assets/PTMAntigenList_SiteLevel.txt | 
+|   	|  CAAs	| CancerAssociatedAntigensList.txt	| caatlas_extra	| https://www.zhang-lab.org/caatlas/assets/CancerAssociatedAntigensList.txt  | 
 
 
-
-
+_Notes_: 
+- For CaAtlas, the inidividual peptides were scraped from the site using the cancer gene list: https://www.zhang-lab.org/caatlas/index.php/gene/.
+- For ISE, the individual cancers or tissues were selected and exported as CSVs from the download page. 
+- For LigandMHCatlas, each HLA file was exported (as zip files) and then all data combined. Additionally, the web immunopeptidome file (http://modinfor.com/Ligand.MHC-Atlas/Dataset/Web-Immunopeptide.txt) was downloaded to cross-reference the peptide with it's gene. 
 
  
